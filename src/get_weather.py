@@ -68,6 +68,9 @@ class WeatherFetcher:
         hourly_data["precipitation_probability"] = hourly_precipitation
         hourly_data["uv_index"] = hourly_uv_index
         hourly_dataframe = pd.DataFrame(data = hourly_data)
+        # I want the numbers rounded to 2 decimal places
+        current_dataframe = current_dataframe.round(2)
+        hourly_dataframe = hourly_dataframe.round(2)
         return current_dataframe, hourly_dataframe
 
     def convert_time(self, time):
