@@ -1,0 +1,3 @@
+Recommend me clothes for today taking into account the following information about the time and weather.
+It's {time}, I'm in {timezone}. The temperature has Celsius units, the precipitacion probability is a percentage and the precipitacion is in mm.
+The current weather is as following: {currently}. The weather for the next few hours: {hourly}.
