@@ -15,7 +15,7 @@ This project aims to provide attire recommendations by analyzing the current wea
 
 To install and run this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/weather_attire.git`
+1. Clone the repository: `git clone https://github.com/delfimontilla/weather_attire.git`
 2. Navigate to the project directory: `cd weather_attire`
 3. Install the dependencies: `poetry install`
 4. Configure your Hugging Face token in a json file inside the `config` directory.
