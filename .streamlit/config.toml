@@ -1,0 +1,11 @@
+[server]
+headless = true
+port = 4040
+
+
+[theme]
+primaryColor="#F63366"
+backgroundColor="#262525"
+secondaryBackgroundColor="#1c1919"
+textColor="#ccc8c8"
+font="sans serif"
