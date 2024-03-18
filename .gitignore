@@ -1,3 +1,7 @@
+hf_key.json
+.cache.sqlite
+.streamlit/credentials.toml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
