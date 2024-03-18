@@ -1,0 +1,17 @@
+{
+	"cache_session": {
+		"expire_after": 3600,
+		"retries": 5,
+		"backoff_factor": 0.2
+	},
+	"url": "https://api.open-meteo.com/v1/forecast",
+	"params": {
+		"latitude": -34.6131,
+		"longitude": -58.3772,
+		"current": ["temperature_2m", "apparent_temperature", "is_day", "precipitation"],
+		"hourly": ["temperature_2m", "apparent_temperature", "precipitation_probability", "precipitation", "uv_index"],
+		"timezone": "America/Argentina/Buenos_Aires",
+		"forecast_days": 1,
+		"forecast_hours": 6
+	}
+}
