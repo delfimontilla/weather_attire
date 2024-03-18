@@ -18,13 +18,18 @@ To install and run this project, follow these steps:
 1. Clone the repository: `git clone https://github.com/delfimontilla/weather_attire.git`
 2. Navigate to the project directory: `cd weather_attire`
 3. Install the dependencies: `poetry install`
-4. Configure your Hugging Face token in a json file inside the `config` directory.
+4. Configure your Hugging Face token in a json file in the main directory.
 5. Get access to Gemma Models in `https://huggingface.co/google/gemma-2b-it`
 
 ## Usage
 
 Run the webapp with `poetry run streamlit run src/dashboard.py`.
-Once the application is running, you can access it through your web browser clicking on the Network URL provided. When asked, the application will display the current weather information and provide attire recommendations based on the weather conditions.
+Once the application is running, you can access it through your web browser clicking on the Network URL provided. Depending on the option selected at the sidebar menu, the application will display the current weather information or provide attire recommendations based on the weather conditions.
+
+Examples:
+![Screenshot 2024-03-18 195626](https://github.com/delfimontilla/weather_attire/assets/37596500/e6c4bb51-a264-4690-afa6-c8d24139c303)
+![Screenshot 2024-03-18 200152](https://github.com/delfimontilla/weather_attire/assets/37596500/2b060255-7be7-47bb-b1de-8eca6131b90b)
+
 
 ## Contributing
 
