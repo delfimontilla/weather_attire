@@ -101,7 +101,7 @@ with st.sidebar:
     st.markdown("# About")
     st.markdown("Test the AI Attire Assistant.")
     st.markdown(
-       "Accoring to the date, city, and weather."
+       "According to the date, city, and weather."
             )
     info_option = st.selectbox(label='Info to display', options=['Attire Recommendation', 'Weather'])
 
